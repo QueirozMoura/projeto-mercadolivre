@@ -1,0 +1,110 @@
+/* Regras responsivas para diferentes larguras de tela */
+
+/* Ajustes para telas médias (<= 1024px) */
+@media (max-width: 1024px) {
+	.container {
+		padding: 10px;
+	}
+
+	.products-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 18px;
+	}
+
+	.hero {
+		height: 300px;
+	}
+
+	.product-image {
+		height: 180px;
+	}
+
+	.logo {
+		height: 64px;
+	}
+}
+
+/* Ajustes para tablets e telas pequenas (<= 768px) */
+@media (max-width: 768px) {
+	.products-grid {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.search-container {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 8px;
+		padding: 8px 0;
+	}
+
+	.search-input {
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+	}
+
+	.search-Btn {
+		width: 100%;
+		height: 40px;
+		padding: 8px;
+	}
+
+	.logo {
+		height: 56px;
+	}
+
+	.hero {
+		height: 240px;
+		background-position: center;
+	}
+
+	.product-image {
+		height: 220px;
+	}
+
+	.product-price {
+		font-size: 24px;
+	}
+}
+
+/* Ajustes para celulares (<= 480px) */
+@media (max-width: 480px) {
+	.search-container {
+		padding: 6px;
+	}
+
+	.logo {
+		height: 48px;
+	}
+
+	.hero {
+		height: 200px;
+	}
+
+	.product-image {
+		height: 180px;
+	}
+
+	.product-title {
+		font-size: 14px;
+		height: auto;
+	}
+
+	.product-card {
+		padding: 12px;
+	}
+
+	.products-grid {
+		gap: 12px;
+	}
+}
+
+/* Utilitário: mensagem de nenhum resultado (pode ser usada futuramente) */
+.no-results {
+	text-align: center;
+	color: #666;
+	padding: 20px;
+	font-size: 18px;
+}
+
