@@ -13,6 +13,7 @@
 
 	.hero {
 		height: 300px;
+		padding-top: 60px;
 	}
 
 	.product-image {
@@ -56,6 +57,7 @@
 
 	.hero {
 		height: 240px;
+		padding-top: 40px;
 		background-position: center;
 	}
 
@@ -80,6 +82,7 @@
 
 	.hero {
 		height: 200px;
+		padding-top: 24px;
 	}
 
 	.product-image {
